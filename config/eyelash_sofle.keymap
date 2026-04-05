@@ -82,11 +82,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE          &kp F1     &kp F2                &kp F3                 &kp F4        &kp F5      &mmv MOVE_UP     &kp F6             &kp F7    &kp F8      &kp F9     &kp F10           &trans
-&kp ENTER          &kp GRAVE  &mkp LCLK             &mkp MCLK              &mkp RCLK     &mkp MB4    &mmv MOVE_DOWN   &kp RA(BACKSLASH)  &kp END   &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
-&kp LC(BACKSPACE)  &kp TILDE  &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)  &trans        &mkp MB5    &mmv MOVE_LEFT   &kp PAGE_UP        &kp LEFT  &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp BACKSPACE      &trans     &trans                &kp RA(SEMI)           &kp RA(APOS)  &trans      &mmv MOVE_RIGHT  &kp PAGE_DOWN      &trans    &kp INSERT  &kp F11    &kp F12           &trans
-&kp C_MUTE         &trans     &trans                &trans                 &trans        &trans      &mkp LCLK        &trans             &trans    &trans      &trans     &trans
+&kp GRAVE   &kp F1     &kp F2                &kp F3                 &kp F4        &kp F5      &mmv MOVE_UP     &kp F6             &kp F7    &kp F8      &kp F9     &kp F10           &trans
+&trans      &kp GRAVE  &mkp LCLK             &mkp MCLK              &mkp RCLK     &mkp MB4    &mmv MOVE_DOWN   &kp RA(BACKSLASH)  &kp END   &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
+&trans      &kp TILDE  &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)  &trans        &mkp MB5    &mmv MOVE_LEFT   &kp PAGE_UP        &kp LEFT  &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans      &trans     &trans                &kp RA(SEMI)           &kp RA(APOS)  &trans      &mmv MOVE_RIGHT  &kp PAGE_DOWN      &trans    &kp INSERT  &kp F11    &kp F12           &trans
+&kp C_MUTE  &trans     &trans                &trans                 &trans        &trans      &mkp LCLK        &trans             &trans    &trans      &trans     &trans
             >;
 
             display-name = "NAV";
@@ -108,11 +108,11 @@
 
         layer_3 {
             bindings = <
-&trans  &trans        &trans        &trans        &trans        &trans          &trans  &trans        &trans        &trans        &trans        &trans        &trans
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &trans  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans
-&trans  &trans        &trans        &trans        &trans        &trans          &trans  &trans        &trans        &trans        &trans        &trans        &trans
-&trans  &trans        &trans        &trans        &trans        &trans          &trans  &trans        &trans        &trans        &trans        &trans        &trans
-&trans  &trans        &trans        &trans        &trans        &trans          &trans  &trans        &trans        &trans        &trans        &trans
+&trans  &trans        &trans        &trans         &trans             &trans          &trans  &trans        &trans        &trans        &trans        &trans        &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4       &kp NUMBER_5    &trans  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans
+&trans  &trans        &trans        &trans         &trans             &trans          &trans  &trans        &trans        &trans        &trans        &trans        &trans
+&trans  &trans        &trans        &trans         &trans             &trans          &trans  &trans        &trans        &trans        &trans        &trans        &trans
+&trans  &trans        &kp DEL       &kp BACKSPACE  &kp LC(BACKSPACE)  &kp ENTER       &trans  &trans        &trans        &trans        &trans        &trans
             >;
 
             label = "NUM";
