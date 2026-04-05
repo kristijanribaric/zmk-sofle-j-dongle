@@ -69,11 +69,11 @@
 
         layer0 {
             bindings = <
-&kp ESC     &kp N1     &kp N2        &kp N3        &kp N4  &kp N5       &kp UP_ARROW     &kp N6     &kp N7  &kp N8         &kp N9      &kp N0       &kp BACKSPACE
-&kp TAB     &kp Q      &kp W         &kp E         &kp R   &kp T        &kp DOWN_ARROW   &kp Y      &kp U   &kp I          &kp O       &kp P        &kp BSLH
-&lt 3 CAPS  &kp A      &kp S         &kp D         &kp F   &kp G        &kp LEFT_ARROW   &kp H      &kp J   &kp K          &kp L       &kp SEMI     &kp APOS
-&kp LSHFT   &kp Z      &kp X         &kp C         &kp V   &kp B        &kp RIGHT_ARROW  &kp N      &kp M   &kp COMMA      &kp DOT     &kp FSLH     &kp ENTER
-&kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &mo 1   &kp SPACE    &kp ENTER        &kp SPACE  &mo 2   &kp BACKSPACE  &kp DELETE  &lt 4 ENTER
+&kp ESC     &kp N1     &kp N2        &kp N3        &kp N4  &kp N5       &kp UP_ARROW     &kp N6     &kp N7  &kp N8         &kp N9      &kp N0             &mo 4
+&kp TAB     &kp Q      &kp W         &kp E         &kp R   &kp T        &kp DOWN_ARROW   &kp Y      &kp U   &kp I          &kp O       &kp P              &kp BSLH
+&lt 3 CAPS  &kp A      &kp S         &kp D         &kp F   &kp G        &kp LEFT_ARROW   &kp H      &kp J   &kp K          &kp L       &kp SEMI           &kp APOS
+&kp LSHFT   &kp Z      &kp X         &kp C         &kp V   &kp B        &kp RIGHT_ARROW  &kp N      &kp M   &kp COMMA      &kp DOT     &kp FSLH           &kp RIGHT_SHIFT
+&kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &mo 1   &kp SPACE    &kp ENTER        &kp ENTER  &mo 2   &kp BACKSPACE  &kp DELETE  &kp RIGHT_CONTROL
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -82,11 +82,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE   &kp F1     &kp F2              &kp F3               &kp F4        &kp F5      &mmv MOVE_UP     &kp F6             &kp F7    &kp F8      &kp F9     &kp F10           &trans
-&trans      &kp GRAVE  &mkp LCLK           &mkp MCLK            &mkp RCLK     &mkp MB4    &mmv MOVE_DOWN   &kp RA(BACKSLASH)  &kp END   &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
-&trans      &kp TILDE  &kp RA(LEFT_BRACE)  &kp RA(RIGHT_BRACE)  &trans        &mkp MB5    &mmv MOVE_LEFT   &kp PAGE_UP        &kp LEFT  &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans      &trans     &trans              &kp RA(SEMI)         &kp RA(APOS)  &trans      &mmv MOVE_RIGHT  &kp PAGE_DOWN      &trans    &kp INSERT  &kp F11    &kp F12           &trans
-&kp C_MUTE  &trans     &trans              &trans               &trans        &trans      &mkp LCLK        &trans             &trans    &trans      &trans     &trans
+&kp GRAVE   &kp F1     &kp F2                &kp F3                 &kp F4        &kp F5      &mmv MOVE_UP     &kp F6             &kp F7    &kp F8      &kp F9     &kp F10           &trans
+&trans      &kp GRAVE  &mkp LCLK             &mkp MCLK              &mkp RCLK     &mkp MB4    &mmv MOVE_DOWN   &kp RA(BACKSLASH)  &kp END   &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
+&trans      &kp TILDE  &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)  &trans        &mkp MB5    &mmv MOVE_LEFT   &kp PAGE_UP        &kp LEFT  &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans      &trans     &trans                &kp RA(SEMI)           &kp RA(APOS)  &trans      &mmv MOVE_RIGHT  &kp PAGE_DOWN      &trans    &kp INSERT  &kp F11    &kp F12           &trans
+&kp C_MUTE  &trans     &trans                &trans                 &trans        &trans      &mkp LCLK        &trans             &trans    &trans      &trans     &trans
             >;
 
             display-name = "layer1";
@@ -95,11 +95,11 @@
 
         layer_2 {
             bindings = <
-&kp TILDE  &trans  &trans          &trans          &trans           &trans    &mmv MOVE_UP     &trans                &trans                 &trans            &trans            &trans             &trans
-&trans     &trans  &trans          &kp UP_ARROW    &trans           &trans    &mmv MOVE_DOWN   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LS(NUMBER_8)  &kp LS(NUMBER_1)  &kp UNDER          &kp PLUS
-&trans     &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans    &mmv MOVE_LEFT   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LESS_THAN     &kp GREATER_THAN  &kp LS(SEMICOLON)  &kp LS(APOS)
-&trans     &trans  &trans          &trans          &trans           &trans    &mmv MOVE_RIGHT  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans            &trans            &trans             &trans
-&trans     &trans  &trans          &trans          &trans           &trans    &mkp LCLK        &trans                &trans                 &trans            &trans            &trans
+&kp TILDE  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4  &kp KP_NUMBER_5    &mmv MOVE_UP     &kp KP_NUMBER_6       &kp KP_NUMBER_7        &kp KP_NUMBER_8   &kp KP_NUMBER_9   &kp KP_NUMBER_0    &trans
+&trans     &trans           &trans           &kp UP_ARROW     &trans           &trans             &mmv MOVE_DOWN   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LS(NUMBER_8)  &kp LS(NUMBER_1)  &kp UNDER          &kp PLUS
+&trans     &trans           &kp LEFT_ARROW   &kp DOWN_ARROW   &kp RIGHT_ARROW  &trans             &mmv MOVE_LEFT   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LESS_THAN     &kp GREATER_THAN  &kp LS(SEMICOLON)  &kp LS(APOS)
+&trans     &trans           &trans           &trans           &trans           &trans             &mmv MOVE_RIGHT  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans            &trans            &trans             &trans
+&trans     &trans           &trans           &trans           &trans           &trans             &mkp LCLK        &trans                &trans                 &trans            &trans            &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -107,11 +107,11 @@
 
         layer_3 {
             bindings = <
-&trans  &trans           &trans           &trans           &trans           &trans             &trans  &trans           &trans           &trans           &trans           &trans           &trans
-&trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4  &kp KP_NUMBER_5    &trans  &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0  &trans
-&trans  &trans           &trans           &trans           &trans           &trans             &trans  &trans           &trans           &trans           &trans           &trans           &trans
-&trans  &trans           &trans           &trans           &trans           &trans             &trans  &trans           &trans           &trans           &trans           &trans           &trans
-&trans  &trans           &trans           &trans           &trans           &trans             &trans  &trans           &trans           &trans           &trans           &trans
+&trans  &trans        &trans        &trans        &trans        &trans          &trans  &trans        &trans        &trans        &trans        &trans        &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &trans  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans
+&trans  &trans        &trans        &trans        &trans        &trans          &trans  &trans        &trans        &trans        &trans        &trans        &trans
+&trans  &trans        &trans        &trans        &trans        &trans          &trans  &trans        &trans        &trans        &trans        &trans        &trans
+&trans  &trans        &trans        &trans        &trans        &trans          &trans  &trans        &trans        &trans        &trans        &trans
             >;
         };
 
