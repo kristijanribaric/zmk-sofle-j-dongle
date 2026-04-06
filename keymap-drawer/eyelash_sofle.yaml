@@ -161,7 +161,7 @@ layers:
   - '#'
   - '*'
   - KP SLASH
-  - KP EQUAL
+  - {t: '=', s: +}
   - '&'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - '{'
