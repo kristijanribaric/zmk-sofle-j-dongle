@@ -97,7 +97,7 @@
             bindings = <
 &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4  &kp KP_NUMBER_5    &mmv MOVE_UP     &kp KP_NUMBER_6       &kp KP_NUMBER_7        &kp KP_NUMBER_8  &kp KP_NUMBER_9   &kp KP_NUMBER_0     &trans
 &trans  &kp GRAVE        &kp EXCLAMATION  &kp QUESTION     &kp KP_MINUS     &kp PLUS           &mmv MOVE_DOWN   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMI         &kp LS(SEMI)      &kp UNDER           &trans
-&trans  &kp HASH         &kp ASTERISK     &kp KP_SLASH     &kp KP_EQUAL     &kp AMPERSAND      &mmv MOVE_LEFT   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LESS_THAN    &kp GREATER_THAN  &kp LS(APOSTROPHE)  &trans
+&trans  &kp HASH         &kp ASTERISK     &kp KP_SLASH     &kp EQUAL        &kp AMPERSAND      &mmv MOVE_LEFT   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LESS_THAN    &kp GREATER_THAN  &kp LS(APOSTROPHE)  &trans
 &trans  &kp TILDE        &kp BACKSLASH    &kp PIPE         &kp AT_SIGN      &kp PERCENT        &mmv MOVE_RIGHT  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOLLAR       &kp CARET         &kp APOSTROPHE      &trans
 &trans  &trans           &trans           &trans           &trans           &trans             &mkp LCLK        &trans                &trans                 &trans           &trans            &trans
             >;
