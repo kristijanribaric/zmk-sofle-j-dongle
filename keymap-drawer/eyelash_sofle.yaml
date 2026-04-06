@@ -148,7 +148,7 @@ layers:
   - {t: '`', s: '~'}
   - '!'
   - '?'
-  - KP MINUS
+  - {t: '-', s: _}
   - +
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - (
@@ -160,7 +160,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '#'
   - '*'
-  - KP SLASH
+  - {t: /, s: '?'}
   - {t: '=', s: +}
   - '&'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
