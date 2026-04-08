@@ -81,10 +81,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '`', s: '~'}
-  - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-scroll-wheel$$
-  - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+C
+  - Ctl+V
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: AltGr+\, s: AltGr+|}
   - END
@@ -96,8 +96,8 @@ layers:
   - '~'
   - {t: 'AltGr+[', s: 'AltGr+{'}
   - {t: 'AltGr+]', s: 'AltGr+}'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '&mkp MB5'
+  - Ctl+X
+  - Ctl+Z
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - PgUp
   - $$mdi:arrow-left-bold$$
@@ -110,7 +110,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: AltGr+;, s: 'AltGr+:'}
   - AltGr+.
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+Y
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - PgDn
   - {t: '$$mdi:transfer$$', type: trans}
@@ -224,10 +224,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - AC CUT
-  - AC COPY
-  - AC PASTE
-  - AC UNDO
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - KP MINUS
   - KP PLUS
@@ -237,10 +237,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - AC CUT
-  - AC COPY
-  - AC PASTE
-  - AC REDO
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - KP MULTIPLY
   - KP SLASH
