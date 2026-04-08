@@ -83,8 +83,8 @@ layers:
   - {t: '`', s: '~'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+C
-  - Ctl+V
+  - Ctl+Z
+  - Ctl+Y
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: AltGr+\, s: AltGr+|}
   - END
@@ -96,8 +96,8 @@ layers:
   - '~'
   - {t: 'AltGr+[', s: 'AltGr+{'}
   - {t: 'AltGr+]', s: 'AltGr+}'}
-  - Ctl+X
-  - Ctl+Z
+  - Ctl+C
+  - Ctl+V
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - PgUp
   - $$mdi:arrow-left-bold$$
@@ -110,7 +110,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: AltGr+;, s: 'AltGr+:'}
   - AltGr+.
-  - Ctl+Y
+  - Ctl+X
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - PgDn
   - {t: '$$mdi:transfer$$', type: trans}
