@@ -30,13 +30,13 @@ layers:
   - {t: '$$mdi:apple-keyboard-caps$$', h: NUM}
   - A
   - S
-  - D
-  - F
+  - {t: D, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-command$$'}
   - G
   - $$mdi:arrow-left-bold$$
   - H
-  - J
-  - K
+  - {t: RIGHT GUI, h: J}
+  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - L
   - {t: ;, s: ':'}
   - .
