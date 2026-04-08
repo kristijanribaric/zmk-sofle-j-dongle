@@ -84,7 +84,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
-  - '&ctrlt'
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: AltGr+\, s: AltGr+|}
   - END
@@ -224,10 +224,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - CUT
-  - COPY
-  - PASTE
-  - UNDO
+  - AC CUT
+  - AC COPY
+  - AC PASTE
+  - AC UNDO
   - {t: '$$mdi:transfer$$', type: trans}
   - KP MINUS
   - KP PLUS
@@ -237,10 +237,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - REDO
+  - AC CUT
+  - AC COPY
+  - AC PASTE
+  - AC REDO
   - {t: '$$mdi:transfer$$', type: trans}
   - KP MULTIPLY
   - KP SLASH
