@@ -59,6 +59,14 @@
 
             label = "SHIFT_MB3";
         };
+
+        ctrlt: ctrlt {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LCTRL>, <&macro_press>, <&kp T>;
+
+            label = "CTRLT";
+        };
     };
 
     behaviors {
@@ -83,7 +91,7 @@
         layer_1 {
             bindings = <
 &kp GRAVE   &kp F1     &kp F2                &kp F3                 &kp F4        &kp F5      &mmv MOVE_UP     &kp F6             &kp F7    &kp F8      &kp F9     &kp F10           &trans
-&trans      &kp GRAVE  &mkp LCLK             &mkp MCLK              &mkp RCLK     &mkp MB4    &mmv MOVE_DOWN   &kp RA(BACKSLASH)  &kp END   &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
+&trans      &kp GRAVE  &mkp LCLK             &mkp MCLK              &mkp RCLK     &ctrlt      &mmv MOVE_DOWN   &kp RA(BACKSLASH)  &kp END   &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
 &trans      &kp TILDE  &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)  &trans        &mkp MB5    &mmv MOVE_LEFT   &kp PAGE_UP        &kp LEFT  &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &trans      &trans     &trans                &kp RA(SEMI)           &kp RA(APOS)  &trans      &mmv MOVE_RIGHT  &kp PAGE_DOWN      &trans    &kp INSERT  &kp F11    &kp F12           &trans
 &kp C_MUTE  &trans     &trans                &trans                 &trans        &trans      &mkp LCLK        &trans             &trans    &trans      &trans     &trans
@@ -108,11 +116,11 @@
 
         layer_3 {
             bindings = <
-&trans  &trans        &trans        &trans         &kp F14            &kp F15         &trans  &trans        &trans        &trans        &trans        &trans        &trans
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4       &kp NUMBER_5    &trans  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans
-&trans  &trans        &kp KP_MINUS  &kp KP_PLUS    &kp KP_ENTER       &kp KP_DOT      &trans  &trans        &trans        &trans        &trans        &trans        &trans
-&trans  &trans        &trans        &trans         &kp KP_ASTERISK    &kp KP_SLASH    &trans  &trans        &trans        &trans        &trans        &trans        &trans
-&trans  &trans        &kp DEL       &kp BACKSPACE  &kp LC(BACKSPACE)  &kp ENTER       &trans  &trans        &trans        &trans        &trans        &trans
+&trans  &trans        &trans        &trans         &trans             &trans          &trans  &trans           &trans        &trans        &trans        &trans        &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4       &kp NUMBER_5    &trans  &kp NUMBER_6     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans
+&trans  &trans        &kp K_CUT     &kp K_COPY     &kp K_PASTE        &kp K_UNDO      &trans  &kp KP_MINUS     &kp KP_PLUS   &kp KP_ENTER  &kp KP_DOT    &trans        &trans
+&trans  &trans        &trans        &trans         &trans             &kp K_REDO      &trans  &kp KP_MULTIPLY  &kp KP_SLASH  &trans        &trans        &trans        &trans
+&trans  &trans        &kp DEL       &kp BACKSPACE  &kp LC(BACKSPACE)  &kp ENTER       &trans  &trans           &trans        &trans        &trans        &trans
             >;
 
             label = "NUM";
