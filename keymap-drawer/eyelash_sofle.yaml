@@ -21,7 +21,7 @@ layers:
   - R
   - T
   - $$mdi:arrow-down-bold$$
-  - Y
+  - Z
   - U
   - I
   - O
@@ -41,7 +41,7 @@ layers:
   - {t: ;, s: ':'}
   - .
   - $$mdi:apple-keyboard-control$$
-  - Z
+  - Y
   - X
   - C
   - V
