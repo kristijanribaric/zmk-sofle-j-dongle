@@ -88,13 +88,13 @@
     keymap {
         compatible = "zmk,keymap";
 
-        layer0 {
+        layer_0 {
             bindings = <
-&kp ESC         &kp N1   &kp N2          &kp N3        &kp N4        &kp N5         &kp UP_ARROW     &kp N6     &kp N7  &kp N8         &kp N9      &kp N0             &mo 4
-&ll 3 TAB       &kp Q    &kp W           &kp E         &kp R         &kp T          &kp DOWN_ARROW   &kp Z      &kp U   &kp I          &kp O       &kp P              &kp BSLH
-&kp LEFT_SHIFT  &kp A    &kp S           &kp D         &kp F         &kp G          &kp LEFT_ARROW   &kp H      &kp J   &kp K          &kp L       &kp SEMI           &kp APOS
-&kp LCTRL       &kp Y    &kp X           &kp C         &kp V         &kp B          &kp RIGHT_ARROW  &kp N      &kp M   &kp COMMA      &kp DOT     &kp FSLH           &kp RIGHT_SHIFT
-&kp C_MUTE      &kp TAB  &ll 6 CAPSLOCK  &kp LEFT_GUI  &kp LEFT_ALT  &ll 1 SPACE    &kp ENTER        &kp ENTER  &mo 2   &kp BACKSPACE  &kp DELETE  &kp RIGHT_CONTROL
+&kp ESC         &kp N1   &kp N2  &kp N3        &kp N4        &kp N5         &kp UP_ARROW     &kp N6     &kp N7  &kp N8         &kp N9      &kp N0             &mo 3
+&lt 4 TAB       &kp Q    &kp W   &kp E         &kp R         &kp T          &kp DOWN_ARROW   &kp Z      &kp U   &kp I          &kp O       &kp P              &kp BSLH
+&kp LEFT_SHIFT  &kp A    &kp S   &kp D         &kp F         &kp G          &kp LEFT_ARROW   &kp H      &kp J   &kp K          &kp L       &kp SEMI           &kp APOS
+&kp LCTRL       &kp Y    &kp X   &kp C         &kp V         &kp B          &kp RIGHT_ARROW  &kp N      &kp M   &kp COMMA      &kp DOT     &kp FSLH           &kp RIGHT_SHIFT
+&kp C_MUTE      &kp TAB  &mo 4   &kp LEFT_GUI  &kp LEFT_ALT  &ll 1 SPACE    &kp ENTER        &kp ENTER  &mo 2   &kp BACKSPACE  &kp DELETE  &kp RIGHT_CONTROL
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -103,8 +103,8 @@
 
         layer_1 {
             bindings = <
-&kp CAPSLOCK  &kp F1     &kp F2                &kp F3                 &kp F4        &kp F5       &mmv MOVE_UP     &kp F6             &kp F7    &kp F8      &kp F9     &kp F10           &trans
-&trans        &kp GRAVE  &trans                &kp LG(V)              &kp LC(Z)     &kp LC(Y)    &mmv MOVE_DOWN   &kp RA(BACKSLASH)  &kp END   &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
+&trans        &kp F1     &kp F2                &kp F3                 &kp F4        &kp F5       &mmv MOVE_UP     &kp F6             &kp F7    &kp F8      &kp F9     &kp F10           &trans
+&kp CAPSLOCK  &kp GRAVE  &trans                &kp LG(V)              &kp LC(Z)     &kp LC(Y)    &mmv MOVE_DOWN   &kp RA(BACKSLASH)  &kp END   &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
 &trans        &kp TILDE  &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)  &kp LC(C)     &kp LC(V)    &mmv MOVE_LEFT   &kp PAGE_UP        &kp LEFT  &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &trans        &trans     &trans                &kp RA(SEMI)           &kp RA(APOS)  &kp LC(X)    &mmv MOVE_RIGHT  &kp PAGE_DOWN      &trans    &kp INSERT  &kp F11    &kp F12           &trans
 &kp C_MUTE    &trans     &trans                &trans                 &trans        &trans       &mkp LCLK        &trans             &trans    &trans      &trans     &trans
@@ -127,18 +127,6 @@
             label = "SYM";
         };
 
-        layer_3 {
-            bindings = <
-&trans  &trans        &trans        &trans         &trans             &trans          &trans  &trans           &trans        &trans        &trans        &trans        &trans
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4       &kp NUMBER_5    &trans  &kp NUMBER_6     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans
-&trans  &trans        &trans        &trans         &trans             &trans          &trans  &kp KP_MINUS     &kp KP_PLUS   &kp KP_ENTER  &kp KP_DOT    &trans        &trans
-&trans  &trans        &trans        &trans         &trans             &trans          &trans  &kp KP_MULTIPLY  &kp KP_SLASH  &trans        &trans        &trans        &trans
-&trans  &trans        &kp DEL       &kp BACKSPACE  &kp LC(BACKSPACE)  &kp ENTER       &trans  &trans           &trans        &trans        &trans        &trans
-            >;
-
-            label = "NUM";
-        };
-
         layer_4 {
             bindings = <
 &kp TILDE         &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4       &mmv MOVE_UP     &kp F6  &kp F7  &kp F8      &kp F9     &kp F10      &trans
@@ -153,23 +141,13 @@
         };
 
         layer_5 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
-        layer_6 {
-            label = "NUM2";
+            label = "NUM";
             bindings = <
 &trans         &trans           &trans           &trans           &trans           &trans             &trans  &trans           &trans           &trans           &trans           &trans           &trans
-&trans         &trans           &trans           &trans           &trans           &trans             &trans  &kp KP_MINUS     &kp KP_PLUS      &kp KP_ENTER     &kp KP_DOT       &trans           &trans
+&kp CAPSLOCK   &trans           &trans           &trans           &trans           &trans             &trans  &kp KP_MINUS     &kp KP_PLUS      &kp KP_ENTER     &kp KP_DOT       &trans           &trans
 &kp ENTER      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4  &kp KP_NUMBER_5    &trans  &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0  &trans
 &kp BACKSPACE  &trans           &trans           &trans           &trans           &trans             &trans  &kp KP_MULTIPLY  &kp KP_SLASH     &trans           &trans           &trans           &trans
-&trans         &trans           &trans           &trans           &trans           &trans             &trans  &trans           &trans           &trans           &trans           &trans
+&trans         &trans           &trans           &kp BACKSPACE    &trans           &kp ENTER          &trans  &trans           &trans           &trans           &trans           &trans
             >;
         };
     };
