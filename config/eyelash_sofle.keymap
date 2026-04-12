@@ -85,6 +85,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <35 36 34>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
