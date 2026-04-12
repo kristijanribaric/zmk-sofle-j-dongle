@@ -157,7 +157,7 @@ layers:
   - {t: Sft+;, s: 'Sft+:'}
   - _
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '~'
   - '#'
   - '*'
   - {t: /, s: '?'}
@@ -169,9 +169,9 @@ layers:
   - <
   - '>'
   - Sft+<
+  - <
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '~'
   - {t: \, s: '|'}
   - '|'
   - '@'
@@ -181,7 +181,7 @@ layers:
   - {t: ']', s: '}'}
   - $
   - ^
-  - <
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
