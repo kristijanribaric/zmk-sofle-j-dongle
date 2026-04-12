@@ -39,7 +39,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - .
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
   - Y
   - X
@@ -52,7 +52,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:volume-off$$
   - $$mdi:keyboard-tab$$
   - NUM
@@ -60,11 +60,11 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-space$$', h: NAV}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - SYM
+  - {t: '$$mdi:keyboard-return$$', h: SYM}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:backspace-reverse-outline$$
-  - $$mdi:apple-keyboard-control$$
+  - RIGHT GUI
+  - $$mdi:apple-keyboard-caps$$
   NAV:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
@@ -190,8 +190,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
