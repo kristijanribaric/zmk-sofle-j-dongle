@@ -152,7 +152,18 @@
         layer_5 {
             label = "NUM";
             bindings = <
-&trans         &trans           &trans           &trans           &trans           &trans             &trans  &trans           &trans           &trans           &trans           &trans           &trans
+&trans         &kp NUMBER_1     &kp NUMBER_2     &kp NUMBER_3     &kp NUMBER_4     &kp N5        &trans  &kp NUMBER_6     &kp N7        &kp N8  &kp N9  &kp N0  &trans
+&kp CAPSLOCK   &trans           &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans        &trans  &trans           &trans        &trans  &trans  &trans  &trans
+&kp KP_ENTER   &kp KP_NUMBER_1  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_N0     &trans  &kp KP_MINUS     &kp KP_PLUS   &trans  &trans  &trans  &trans
+&kp BACKSPACE  &trans           &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT    &trans  &kp KP_MULTIPLY  &kp KP_SLASH  &trans  &trans  &trans  &trans
+&trans         &trans           &trans           &kp BACKSPACE    &trans           &kp ENTER     &trans  &trans           &trans        &trans  &trans  &trans
+            >;
+        };
+
+        layer_6 {
+            label = "NUM2";
+            bindings = <
+&trans         &kp NUMBER_1     &kp NUMBER_2     &kp NUMBER_3     &kp NUMBER_4     &kp N5             &trans  &kp NUMBER_6     &kp N7           &kp N8           &kp N9           &kp N0           &trans
 &kp CAPSLOCK   &trans           &trans           &trans           &trans           &trans             &trans  &kp KP_MINUS     &kp KP_PLUS      &kp KP_ENTER     &kp KP_DOT       &trans           &trans
 &kp ENTER      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4  &kp KP_NUMBER_5    &trans  &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0  &trans
 &kp BACKSPACE  &trans           &trans           &trans           &trans           &trans             &trans  &kp KP_MULTIPLY  &kp KP_SLASH     &trans           &trans           &trans           &trans
