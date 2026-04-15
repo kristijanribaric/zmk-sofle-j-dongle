@@ -113,7 +113,7 @@
         layer_1 {
             bindings = <
 &trans        &kp F1     &kp F2                &kp F3                 &kp F4        &kp F5       &mmv MOVE_UP     &kp F6             &kp F7    &kp F8      &kp F9     &kp F10           &trans
-&kp CAPSLOCK  &kp GRAVE  &trans                &kp LC(Y)              &kp LC(Z)     &kp LG(V)    &mmv MOVE_DOWN   &kp RA(BACKSLASH)  &kp END   &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
+&kp CAPSLOCK  &kp GRAVE  &trans                &kp LC(Y)              &kp LC(Z)     &kp LG(V)    &mmv MOVE_DOWN   &kp RA(BACKSLASH)  &kp HOME  &kp UP      &kp END    &kp MINUS         &kp EQUAL
 &trans        &kp TILDE  &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)  &kp LC(C)     &kp LC(V)    &mmv MOVE_LEFT   &kp PAGE_UP        &kp LEFT  &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &trans        &trans     &trans                &kp RA(SEMI)           &kp RA(APOS)  &kp LC(X)    &mmv MOVE_RIGHT  &kp PAGE_DOWN      &trans    &kp INSERT  &kp F11    &kp F12           &trans
 &kp C_MUTE    &trans     &trans                &trans                 &trans        &trans       &mkp LCLK        &trans             &trans    &trans      &trans     &trans
