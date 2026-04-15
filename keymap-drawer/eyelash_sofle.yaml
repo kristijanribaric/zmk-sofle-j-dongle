@@ -82,9 +82,9 @@ layers:
   - $$mdi:apple-keyboard-caps$$
   - {t: '`', s: '~'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
-  - Ctl+Z
   - Ctl+Y
+  - Ctl+Z
+  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: AltGr+\, s: AltGr+|}
   - END
