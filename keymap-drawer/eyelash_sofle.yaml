@@ -87,9 +87,9 @@ layers:
   - {t: V, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: AltGr+\, s: AltGr+|}
-  - END
-  - $$mdi:arrow-up-bold$$
   - HOME
+  - $$mdi:arrow-up-bold$$
+  - END
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
