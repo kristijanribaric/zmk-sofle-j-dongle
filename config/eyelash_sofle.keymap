@@ -125,7 +125,7 @@
             >;
 
             display-name = "NAV";
-            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
+            sensor-bindings = <&inc_dec_kp DOWN_ARROW UP_ARROW>;
         };
 
         layer_2 {
