@@ -92,6 +92,11 @@
             bindings = <&kp ENTER>;
             key-positions = <35 36 34>;
         };
+
+        num_layer {
+            bindings = <&mo 6>;
+            key-positions = <30 29>;
+        };
     };
 
     keymap {
@@ -169,6 +174,18 @@
 &kp BACKSPACE  &trans           &trans           &trans           &trans           &trans             &trans  &kp KP_MULTIPLY  &kp KP_SLASH     &trans           &trans           &trans           &trans
 &trans         &trans           &trans           &kp BACKSPACE    &trans           &kp ENTER          &trans  &trans           &trans           &trans           &trans           &trans
             >;
+        };
+
+        layer_7 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans           &trans           &trans           &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp NUMBER_9     &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_NUMBER_0  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans           &trans           &trans           &trans
+            >;
+
+            label = "NUM_2";
         };
     };
 };
