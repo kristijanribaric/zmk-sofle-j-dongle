@@ -85,7 +85,14 @@
         };
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        numpad_combo {
+            bindings = <&mo 4>;
+            key-positions = <57 59>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
