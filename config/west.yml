@@ -8,6 +8,10 @@ manifest:
       url-base: https://github.com/tokyo2006
     - name: englmaxi
       url-base: https://github.com/englmaxi
+    - name: zzeneg # <-- required for Raw HID module
+      url-base: https://github.com/zzeneg
+    - name: srwi # <-- required for KeyPeek module
+      url-base: https://github.com/srwi
   projects:
     - name: mario-peripheral-animation
       remote: gpeye
@@ -22,5 +26,11 @@ manifest:
     - name: zmk-dongle-display
       remote: englmaxi
       revision: v0.3
+    - name: zmk-raw-hid # <-- Raw HID module
+      remote: zzeneg
+      revision: main
+    - name: zmk-keypeek-layer-notifier # <-- KeyPeek module
+      remote: srwi
+      revision: master
   self:
     path: config
