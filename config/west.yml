@@ -4,8 +4,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: gpeye
       url-base: https://github.com/GPeye
-    - name: tokyo2006
-      url-base: https://github.com/tokyo2006
+    - name: carrefinho
+      url-base: https://github.com/carrefinho
     - name: englmaxi
       url-base: https://github.com/englmaxi
     - name: zzeneg # <-- required for Raw HID module
@@ -20,9 +20,9 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: prospector-zmk-module                 # <--- and these
-      remote: tokyo2006                          # <---
-      revision: micro_spi2  
+    - name: prospector-zmk-module
+      remote: carrefinho
+      revision: feat/new-status-screens
     - name: zmk-dongle-display
       remote: englmaxi
       revision: main
