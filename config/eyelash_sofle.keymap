@@ -182,7 +182,9 @@
             >;
         };
 
-        F-KEYS {
+
+        layer_6 {
+            label = "F-KEYS";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans   &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp F7  &kp F8  &kp F9  &kp F10  &trans
