@@ -56,8 +56,8 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:keyboard-tab$$
   - NUM
-  - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-option$$
+  - $$mdi:keyboard-tab$$
+  - $$mdi:keyboard-esc$$
   - {t: '$$mdi:keyboard-space$$', h: NAV}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', h: SYM}
