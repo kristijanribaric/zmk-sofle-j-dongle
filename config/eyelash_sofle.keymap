@@ -134,11 +134,11 @@
 
         layer_1 {
             bindings = <
-&trans        &kp F1  &kp F2                &kp F3                 &kp F4        &kp F5       &mmv MOVE_UP     &kp F6             &kp F7      &kp F8      &kp F9     &kp F10           &trans
-&kp ESCAPE    &trans  &trans                &kp LC(Y)              &kp LC(Z)     &kp LG(V)    &mmv MOVE_DOWN   &kp RA(BACKSLASH)  &kp HOME    &kp UP      &kp END    &kp MINUS         &kp EQUAL
-&kp CAPSLOCK  &trans  &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)  &kp LC(C)     &kp LC(V)    &mmv MOVE_LEFT   &kp PAGE_UP        &kp LEFT    &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans        &trans  &trans                &kp RA(SEMI)           &kp RA(APOS)  &kp LC(X)    &mmv MOVE_RIGHT  &kp PAGE_DOWN      &kp DELETE  &kp INSERT  &mkp LCLK  &mkp RCLK         &mkp MCLK
-&kp C_MUTE    &trans  &trans                &trans                 &trans        &trans       &mkp LCLK        &kp TAB            &kp ESCAPE  &trans      &trans     &trans
+&trans      &kp F1  &kp F2                &kp F3                 &kp F4        &kp F5       &mmv MOVE_UP     &kp F6             &kp F7      &kp F8      &kp F9     &kp F10       &trans
+&trans      &trans  &trans                &kp LC(Y)              &kp LC(Z)     &kp LG(V)    &mmv MOVE_DOWN   &kp RA(BACKSLASH)  &kp HOME    &kp UP      &kp END    &kp CAPSLOCK  &trans
+&trans      &trans  &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)  &kp LC(C)     &kp LC(V)    &mmv MOVE_LEFT   &kp PAGE_UP        &kp LEFT    &kp DOWN    &kp RIGHT  &trans        &trans
+&trans      &trans  &trans                &kp RA(SEMI)           &kp RA(APOS)  &kp LC(X)    &mmv MOVE_RIGHT  &kp PAGE_DOWN      &kp DELETE  &kp INSERT  &mkp LCLK  &mkp RCLK     &mkp MCLK
+&kp C_MUTE  &trans  &trans                &trans                 &trans        &trans       &mkp LCLK        &kp TAB            &kp ESCAPE  &trans      &trans     &trans
             >;
 
             display-name = "NAV";
