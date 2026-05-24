@@ -138,7 +138,7 @@
 &kp ESCAPE    &trans  &trans                &kp LC(Y)              &kp LC(Z)     &kp LG(V)    &mmv MOVE_DOWN   &kp RA(BACKSLASH)  &kp HOME    &kp UP      &kp END    &kp MINUS         &kp EQUAL
 &kp CAPSLOCK  &trans  &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)  &kp LC(C)     &kp LC(V)    &mmv MOVE_LEFT   &kp PAGE_UP        &kp LEFT    &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &trans        &trans  &trans                &kp RA(SEMI)           &kp RA(APOS)  &kp LC(X)    &mmv MOVE_RIGHT  &kp PAGE_DOWN      &kp DELETE  &kp INSERT  &mkp LCLK  &mkp RCLK         &mkp MCLK
-&kp C_MUTE    &trans  &trans                &trans                 &trans        &trans       &mkp LCLK        &kp ESCAPE         &kp TAB     &trans      &trans     &trans
+&kp C_MUTE    &trans  &trans                &trans                 &trans        &trans       &mkp LCLK        &kp TAB            &kp ESCAPE  &trans      &trans     &trans
             >;
 
             display-name = "NAV";
