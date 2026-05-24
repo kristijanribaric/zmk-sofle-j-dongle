@@ -151,7 +151,7 @@
 &trans      &kp GRAVE        &kp EXCLAMATION  &kp QUESTION     &kp MINUS        &kp PLUS           &mmv MOVE_DOWN   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMI         &kp LS(SEMI)      &kp CARET           &trans
 &trans      &kp HASH         &kp ASTERISK     &kp SLASH        &kp EQUAL        &kp AMPERSAND      &mmv MOVE_LEFT   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LESS_THAN    &kp GREATER_THAN  &kp LS(APOSTROPHE)  &trans
 &trans      &kp TILDE        &kp BACKSLASH    &kp PIPE         &kp AT_SIGN      &kp PERCENT        &mmv MOVE_RIGHT  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOLLAR       &kp UNDERSCORE    &kp APOSTROPHE      &trans
-&kp C_MUTE  &trans           &trans           &trans           &trans           &trans             &mkp LCLK        &trans                &trans                 &trans           &trans            &trans
+&kp C_MUTE  &trans           &trans           &trans           &kp CAPSLOCK     &trans             &mkp LCLK        &trans                &trans                 &trans           &trans            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
