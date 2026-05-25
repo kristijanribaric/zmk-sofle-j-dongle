@@ -395,3 +395,5 @@ combos:
   k: NUM
 - p: [34, 35]
   k: $$mdi:keyboard-esc$$
+- p: [30, 29]
+  k: $$mdi:keyboard-tab$$
