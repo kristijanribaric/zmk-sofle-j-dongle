@@ -126,6 +126,16 @@
             bindings = <&kp TAB>;
             key-positions = <30 29>;
         };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <16 17>;
+        };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <43 42>;
+        };
     };
 
     keymap {
