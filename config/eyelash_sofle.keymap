@@ -126,6 +126,11 @@
             bindings = <&kp ESCAPE>;
             key-positions = <34 35>;
         };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <30 29>;
+        };
     };
 
     keymap {
