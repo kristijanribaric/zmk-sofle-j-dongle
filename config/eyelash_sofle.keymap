@@ -114,7 +114,19 @@
         };
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        numpad {
+            bindings = <&mo 2>;
+            key-positions = <59 60>;
+        };
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <34 35>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
