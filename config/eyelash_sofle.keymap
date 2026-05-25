@@ -117,11 +117,6 @@
     combos {
         compatible = "zmk,combos";
 
-        numpad {
-            bindings = <&mo 4>;
-            key-positions = <59 60>;
-        };
-
         esc {
             bindings = <&kp ESCAPE>;
             key-positions = <34 35>;
