@@ -118,7 +118,7 @@
         compatible = "zmk,combos";
 
         numpad {
-            bindings = <&mo 2>;
+            bindings = <&mo 4>;
             key-positions = <59 60>;
         };
 
