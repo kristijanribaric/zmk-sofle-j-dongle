@@ -136,6 +136,11 @@
             bindings = <&kp ENTER>;
             key-positions = <43 42>;
         };
+
+        esc_left {
+            bindings = <&kp ESCAPE>;
+            key-positions = <28 29>;
+        };
     };
 
     keymap {
