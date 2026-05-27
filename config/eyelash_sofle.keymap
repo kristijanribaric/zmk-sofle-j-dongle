@@ -120,26 +120,31 @@
         esc {
             bindings = <&kp ESCAPE>;
             key-positions = <34 35>;
+            layers = <0>;
         };
 
         tab {
             bindings = <&kp TAB>;
             key-positions = <30 29>;
+            layers = <0>;
         };
 
         backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <16 17>;
+            layers = <0>;
         };
 
         enter {
             bindings = <&kp ENTER>;
             key-positions = <43 42>;
+            layers = <0>;
         };
 
         esc_left {
             bindings = <&kp ESCAPE>;
             key-positions = <28 29>;
+            layers = <0>;
         };
     };
 
