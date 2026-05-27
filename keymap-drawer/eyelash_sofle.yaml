@@ -523,11 +523,16 @@ layers:
 combos:
 - p: [34, 35]
   k: $$mdi:keyboard-esc$$
+  l: [BASE]
 - p: [30, 29]
   k: $$mdi:keyboard-tab$$
+  l: [BASE]
 - p: [16, 17]
   k: {t: '$$mdi:backspace$$', type: backspace}
+  l: [BASE]
 - p: [43, 42]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
+  l: [BASE]
 - p: [28, 29]
   k: $$mdi:keyboard-esc$$
+  l: [BASE]
