@@ -56,8 +56,8 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:keyboard-tab$$
   - NUM
-  - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-command$$'}
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-space$$', h: NAV}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', h: SYM}
@@ -93,7 +93,7 @@ layers:
   - $$mdi:apple-keyboard-caps$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: 'AltGr+[', s: 'AltGr+{'}
   - {t: 'AltGr+]', s: 'AltGr+}'}
   - Ctl+C
@@ -106,7 +106,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: AltGr+;, s: 'AltGr+:'}
   - AltGr+.
@@ -520,19 +520,3 @@ layers:
   - $$mdi:keyboard-tab$$
   - RIGHT GUI
   - {t: BASE, h: toggle}
-combos:
-- p: [34, 35]
-  k: $$mdi:keyboard-esc$$
-  l: [BASE]
-- p: [30, 29]
-  k: $$mdi:keyboard-tab$$
-  l: [BASE]
-- p: [16, 17]
-  k: {t: '$$mdi:backspace$$', type: backspace}
-  l: [BASE]
-- p: [43, 42]
-  k: {t: '$$mdi:keyboard-return$$', type: enter}
-  l: [BASE]
-- p: [28, 29]
-  k: $$mdi:keyboard-esc$$
-  l: [BASE]
