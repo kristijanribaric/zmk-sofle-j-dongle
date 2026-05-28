@@ -1,0 +1,9 @@
+/ {
+    esb_split {
+        compatible = "zmk,esb-split";
+        /* Keep this address block shared by the dongle and both halves. */
+        base-addr-0 = <0x91 0xC3 0x5A 0x7D>;
+        base-addr-1 = <0x4E 0xB8 0x62 0xD1>;
+        addr-prefix = <0xA5 0xB2 0xC3 0xD4 0xE5 0xF6 0x87 0x98>;
+    };
+};

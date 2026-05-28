@@ -5,6 +5,7 @@
 *
 */
 #include "eyelash_sofle.dtsi"
+#include "eyelash_sofle_esb_address.dtsi"
 
 &kscan0 {
     compatible = "zmk,kscan-gpio-matrix";
@@ -37,4 +38,3 @@ nice_view_spi: &spi0 {
     pinctrl-names = "default", "sleep";
     cs-gpios = <&gpio0 6 GPIO_ACTIVE_HIGH>;
 };
-
