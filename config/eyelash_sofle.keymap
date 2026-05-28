@@ -114,45 +114,18 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        esc {
-            bindings = <&kp ESCAPE>;
-            key-positions = <34 35>;
-        };
-
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <30 29>;
-        };
-
-        backspace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <16 17>;
-        };
-
-        enter {
-            bindings = <&kp ENTER>;
-            key-positions = <43 42>;
-        };
-
-        esc_left {
-            bindings = <&kp ESCAPE>;
-            key-positions = <28 29>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
 
         layer_0 {
             bindings = <
-&kp ESC         &kp F1             &kp F2  &kp F3        &kp F4        &kp F5         &kp UP_ARROW     &kp F6       &kp F7         &kp F8     &kp F9         &kp F10                     &lt 3 F11
-&lt 4 TAB       &kp Q              &kp W   &kp E         &kp R         &kp T          &kp DOWN_ARROW   &kp Z        &kp U          &kp I      &kp O          &kp P                       &kp F12
-&kp LEFT_SHIFT  &hml LEFT_SHIFT A  &kp S   &kp D         &lt 4 F       &kp G          &kp LEFT_ARROW   &kp H        &kp J          &kp K      &kp L          &hmr RIGHT_SHIFT SEMICOLON  &kp RIGHT_SHIFT
-&kp LCTRL       &hml LCTRL Y       &kp X   &kp C         &lt 5 V       &kp B          &kp RIGHT_ARROW  &kp N        &kp M          &kp COMMA  &kp DOT        &hmr RCTRL FSLH             &kp RCTRL
-&kp C_MUTE      &kp TAB            &mo 4   &kp LEFT_GUI  &kp LEFT_ALT  &lt 1 SPACE    &kp ENTER        &lt 2 ENTER  &kp BACKSPACE  &kp TAB    &kp RIGHT_GUI  &to 6
+&kp ESC         &kp F1            &kp F2  &kp F3               &kp F4            &kp F5         &kp UP_ARROW     &kp F6       &kp F7         &kp F8     &kp F9         &kp F10                    &lt 3 F11
+&lt 4 TAB       &kp Q             &kp W   &kp E                &kp R             &kp T          &kp DOWN_ARROW   &kp Z        &kp U          &kp I      &kp O          &kp P                      &kp F12
+&kp LEFT_SHIFT  &mt LEFT_SHIFT A  &kp S   &kp D                &lt 4 F           &kp G          &kp LEFT_ARROW   &kp H        &kp J          &kp K      &kp L          &mt RIGHT_SHIFT SEMICOLON  &kp RIGHT_SHIFT
+&kp LCTRL       &mt LCTRL Y       &kp X   &kp C                &lt 5 V           &kp B          &kp RIGHT_ARROW  &kp N        &kp M          &kp COMMA  &kp DOT        &mt RCTRL FSLH             &kp RCTRL
+&kp C_MUTE      &kp TAB           &mo 4   &mt LEFT_GUI ESCAPE  &mt LEFT_ALT TAB  &lt 1 SPACE    &kp ENTER        &lt 2 ENTER  &kp BACKSPACE  &kp TAB    &kp RIGHT_GUI  &to 7
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -161,11 +134,11 @@
 
         layer_1 {
             bindings = <
-&trans      &kp F1  &kp F2                &kp F3                 &kp F4        &kp F5       &mmv MOVE_UP     &kp F6             &kp F7      &kp F8      &kp F9     &kp F10       &trans
-&trans      &trans  &trans                &kp LC(Y)              &kp LC(Z)     &kp LG(V)    &mmv MOVE_DOWN   &kp RA(BACKSLASH)  &kp HOME    &kp UP      &kp END    &kp CAPSLOCK  &trans
-&trans      &trans  &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)  &kp LC(C)     &kp LC(V)    &mmv MOVE_LEFT   &kp PAGE_UP        &kp LEFT    &kp DOWN    &kp RIGHT  &trans        &trans
-&trans      &trans  &trans                &kp RA(SEMI)           &kp RA(APOS)  &kp LC(X)    &mmv MOVE_RIGHT  &kp PAGE_DOWN      &kp DELETE  &kp INSERT  &mkp LCLK  &mkp RCLK     &mkp MCLK
-&kp C_MUTE  &trans  &trans                &trans                 &trans        &trans       &mkp LCLK        &kp TAB            &kp ESCAPE  &trans      &trans     &trans
+&trans      &kp F1         &kp F2                &kp F3                 &kp F4        &kp F5       &mmv MOVE_UP     &kp F6             &kp F7      &kp F8      &kp F9     &kp F10       &trans
+&trans      &trans         &trans                &kp LC(Y)              &kp LC(Z)     &kp LG(V)    &mmv MOVE_DOWN   &kp RA(BACKSLASH)  &kp HOME    &kp UP      &kp END    &kp CAPSLOCK  &trans
+&trans      &kp ENTER      &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)  &kp LC(C)     &kp LC(V)    &mmv MOVE_LEFT   &kp PAGE_UP        &kp LEFT    &kp DOWN    &kp RIGHT  &trans        &trans
+&trans      &kp BACKSPACE  &trans                &kp RA(SEMI)           &kp RA(APOS)  &kp LC(X)    &mmv MOVE_RIGHT  &kp PAGE_DOWN      &kp DELETE  &kp INSERT  &mkp LCLK  &mkp RCLK     &mkp MCLK
+&kp C_MUTE  &trans         &trans                &trans                 &trans        &trans       &mkp LCLK        &kp TAB            &kp ESCAPE  &trans      &trans     &trans
             >;
 
             display-name = "NAV";
@@ -228,6 +201,19 @@
 &kp LEFT_SHIFT  &kp A    &kp S   &kp D         &kp F         &kp G          &kp LEFT_ARROW   &kp H        &kp J          &kp K      &kp L          &kp SEMICOLON  &kp RIGHT_SHIFT
 &kp LCTRL       &kp Y    &kp X   &kp C         &kp V         &kp B          &kp RIGHT_ARROW  &kp N        &kp M          &kp COMMA  &kp DOT        &kp SLASH      &kp RCTRL
 &kp C_MUTE      &kp TAB  &mo 4   &kp LEFT_GUI  &kp LEFT_ALT  &lt 1 SPACE    &kp ENTER        &lt 2 ENTER  &kp BACKSPACE  &kp TAB    &kp RIGHT_GUI  &to 0
+            >;
+
+            sensor-bindings = <&scroll_encoder>;
+        };
+
+        layer_8 {
+            display-name = "GAMING_2";
+            bindings = <
+&none       &kp F1          &kp F2  &kp F3        &kp F4        &kp B          &kp UP_ARROW     &kp F6       &kp F7         &kp F8     &kp F9         &kp F10        &none
+&none       &lt 4 TAB       &kp Q   &kp W         &kp E         &kp R          &kp DOWN_ARROW   &kp Z        &kp U          &kp I      &kp O          &kp P          &none
+&none       &kp LEFT_SHIFT  &kp A   &kp S         &kp D         &kp F          &kp LEFT_ARROW   &kp H        &kp J          &kp K      &kp L          &kp SEMICOLON  &none
+&none       &kp LCTRL       &kp Y   &kp X         &kp C         &kp V          &kp RIGHT_ARROW  &kp N        &kp M          &kp COMMA  &kp DOT        &kp SLASH      &none
+&kp C_MUTE  &kp T           &kp G   &kp LEFT_GUI  &kp LEFT_ALT  &lt 1 SPACE    &kp ENTER        &lt 2 ENTER  &kp BACKSPACE  &kp TAB    &kp RIGHT_GUI  &to 0
             >;
 
             sensor-bindings = <&scroll_encoder>;
