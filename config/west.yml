@@ -40,7 +40,7 @@ manifest:
       path: nrfxlib
     - name: zmk-dongle-display
       remote: englmaxi
-      revision: v0.3
+      revision: main
     - name: zmk-raw-hid # <-- Raw HID module
       remote: zzeneg
       revision: main
