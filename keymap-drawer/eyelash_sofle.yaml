@@ -28,7 +28,7 @@ layers:
   - P
   - F12
   - $$mdi:apple-keyboard-shift$$
-  - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: A, h: '&mt LEFT_SHIFT'}
   - S
   - D
   - {t: F, h: NUM}
@@ -38,10 +38,10 @@ layers:
   - J
   - K
   - L
-  - {t: ;, h: '$$mdi:apple-keyboard-shift$$', s: ':'}
+  - {t: ;, h: '&mt RIGHT_SHIFT', s: ':'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
-  - {t: Y, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: Y, h: '&mt LCTRL'}
   - X
   - C
   - {t: V, h: F-KEYS}
@@ -51,7 +51,7 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, h: '$$mdi:apple-keyboard-control$$', s: '?'}
+  - {t: /, h: '&mt RCTRL', s: '?'}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:volume-off$$
   - $$mdi:keyboard-tab$$
