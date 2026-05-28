@@ -38,9 +38,6 @@ manifest:
       revision: v3.1-branch
       repo-path: sdk-nrfxlib
       path: nrfxlib
-    - name: prospector-zmk-module                 # <--- and these
-      remote: tokyo2006                          # <---
-      revision: micro_spi2  
     - name: zmk-dongle-display
       remote: englmaxi
       revision: v0.3
