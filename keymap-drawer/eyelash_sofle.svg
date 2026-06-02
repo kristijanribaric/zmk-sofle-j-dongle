@@ -649,6 +649,24 @@ rect.held, rect.combo.held {
 <use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="274" y="262" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-control"/>
 <use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="276" y="267" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
 </g>
+<g class="combo combopos-2">
+<path d="M462,168 l-359,0" class="combo"/>
+<path d="M462,168 l359,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="155" width="28" height="26" class="combo"/>
+<text x="462" y="168" class="combo tap"><tspan style="font-size: 60%">&amp;case_pas…</tspan></text>
+</g>
+<g class="combo combopos-3">
+<path d="M462,224 l-359,0" class="combo"/>
+<path d="M462,224 l359,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="211" width="28" height="26" class="combo"/>
+<text x="462" y="224" class="combo tap"><tspan style="font-size: 60%">&amp;case_cam…</tspan></text>
+</g>
+<g class="combo combopos-4">
+<path d="M462,112 l-359,0" class="combo"/>
+<path d="M462,112 l359,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="99" width="28" height="26" class="combo"/>
+<text x="462" y="112" class="combo tap"><tspan style="font-size: 60%">&amp;case_keb…</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 388)" class="layer-NAV">
@@ -1007,6 +1025,24 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="269" y="258" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="274" y="262" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-control"/>
 <use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="276" y="267" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
+</g>
+<g class="combo combopos-2">
+<path d="M462,168 l-359,0" class="combo"/>
+<path d="M462,168 l359,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="155" width="28" height="26" class="combo"/>
+<text x="462" y="168" class="combo tap"><tspan style="font-size: 60%">&amp;case_pas…</tspan></text>
+</g>
+<g class="combo combopos-3">
+<path d="M462,224 l-359,0" class="combo"/>
+<path d="M462,224 l359,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="211" width="28" height="26" class="combo"/>
+<text x="462" y="224" class="combo tap"><tspan style="font-size: 60%">&amp;case_cam…</tspan></text>
+</g>
+<g class="combo combopos-4">
+<path d="M462,112 l-359,0" class="combo"/>
+<path d="M462,112 l359,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="99" width="28" height="26" class="combo"/>
+<text x="462" y="112" class="combo tap"><tspan style="font-size: 60%">&amp;case_keb…</tspan></text>
 </g>
 </g>
 </g>
@@ -1377,6 +1413,24 @@ rect.held, rect.combo.held {
 <use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="274" y="262" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-control"/>
 <use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="276" y="267" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
 </g>
+<g class="combo combopos-2">
+<path d="M462,168 l-359,0" class="combo"/>
+<path d="M462,168 l359,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="155" width="28" height="26" class="combo"/>
+<text x="462" y="168" class="combo tap"><tspan style="font-size: 60%">&amp;case_pas…</tspan></text>
+</g>
+<g class="combo combopos-3">
+<path d="M462,224 l-359,0" class="combo"/>
+<path d="M462,224 l359,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="211" width="28" height="26" class="combo"/>
+<text x="462" y="224" class="combo tap"><tspan style="font-size: 60%">&amp;case_cam…</tspan></text>
+</g>
+<g class="combo combopos-4">
+<path d="M462,112 l-359,0" class="combo"/>
+<path d="M462,112 l359,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="99" width="28" height="26" class="combo"/>
+<text x="462" y="112" class="combo tap"><tspan style="font-size: 60%">&amp;case_keb…</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1165)" class="layer-SYS">
@@ -1744,6 +1798,24 @@ rect.held, rect.combo.held {
 <use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="274" y="262" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-control"/>
 <use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="276" y="267" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
 </g>
+<g class="combo combopos-2">
+<path d="M462,168 l-359,0" class="combo"/>
+<path d="M462,168 l359,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="155" width="28" height="26" class="combo"/>
+<text x="462" y="168" class="combo tap"><tspan style="font-size: 60%">&amp;case_pas…</tspan></text>
+</g>
+<g class="combo combopos-3">
+<path d="M462,224 l-359,0" class="combo"/>
+<path d="M462,224 l359,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="211" width="28" height="26" class="combo"/>
+<text x="462" y="224" class="combo tap"><tspan style="font-size: 60%">&amp;case_cam…</tspan></text>
+</g>
+<g class="combo combopos-4">
+<path d="M462,112 l-359,0" class="combo"/>
+<path d="M462,112 l359,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="99" width="28" height="26" class="combo"/>
+<text x="462" y="112" class="combo tap"><tspan style="font-size: 60%">&amp;case_keb…</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1553)" class="layer-NUM">
@@ -2096,6 +2168,24 @@ rect.held, rect.combo.held {
 <use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="274" y="262" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-control"/>
 <use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="276" y="267" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
 </g>
+<g class="combo combopos-2">
+<path d="M462,168 l-359,0" class="combo"/>
+<path d="M462,168 l359,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="155" width="28" height="26" class="combo"/>
+<text x="462" y="168" class="combo tap"><tspan style="font-size: 60%">&amp;case_pas…</tspan></text>
+</g>
+<g class="combo combopos-3">
+<path d="M462,224 l-359,0" class="combo"/>
+<path d="M462,224 l359,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="211" width="28" height="26" class="combo"/>
+<text x="462" y="224" class="combo tap"><tspan style="font-size: 60%">&amp;case_cam…</tspan></text>
+</g>
+<g class="combo combopos-4">
+<path d="M462,112 l-359,0" class="combo"/>
+<path d="M462,112 l359,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="99" width="28" height="26" class="combo"/>
+<text x="462" y="112" class="combo tap"><tspan style="font-size: 60%">&amp;case_keb…</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1941)" class="layer-F-KEYS">
@@ -2431,6 +2521,24 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="269" y="258" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="274" y="262" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-control"/>
 <use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="276" y="267" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
+</g>
+<g class="combo combopos-2">
+<path d="M462,168 l-359,0" class="combo"/>
+<path d="M462,168 l359,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="155" width="28" height="26" class="combo"/>
+<text x="462" y="168" class="combo tap"><tspan style="font-size: 60%">&amp;case_pas…</tspan></text>
+</g>
+<g class="combo combopos-3">
+<path d="M462,224 l-359,0" class="combo"/>
+<path d="M462,224 l359,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="211" width="28" height="26" class="combo"/>
+<text x="462" y="224" class="combo tap"><tspan style="font-size: 60%">&amp;case_cam…</tspan></text>
+</g>
+<g class="combo combopos-4">
+<path d="M462,112 l-359,0" class="combo"/>
+<path d="M462,112 l359,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="99" width="28" height="26" class="combo"/>
+<text x="462" y="112" class="combo tap"><tspan style="font-size: 60%">&amp;case_keb…</tspan></text>
 </g>
 </g>
 </g>
@@ -2786,6 +2894,24 @@ rect.held, rect.combo.held {
 <use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="274" y="262" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-control"/>
 <use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="276" y="267" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
 </g>
+<g class="combo combopos-2">
+<path d="M462,168 l-359,0" class="combo"/>
+<path d="M462,168 l359,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="155" width="28" height="26" class="combo"/>
+<text x="462" y="168" class="combo tap"><tspan style="font-size: 60%">&amp;case_pas…</tspan></text>
+</g>
+<g class="combo combopos-3">
+<path d="M462,224 l-359,0" class="combo"/>
+<path d="M462,224 l359,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="211" width="28" height="26" class="combo"/>
+<text x="462" y="224" class="combo tap"><tspan style="font-size: 60%">&amp;case_cam…</tspan></text>
+</g>
+<g class="combo combopos-4">
+<path d="M462,112 l-359,0" class="combo"/>
+<path d="M462,112 l359,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="99" width="28" height="26" class="combo"/>
+<text x="462" y="112" class="combo tap"><tspan style="font-size: 60%">&amp;case_keb…</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 2718)" class="layer-GAMING_2">
@@ -3136,6 +3262,24 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="269" y="258" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="274" y="262" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-control"/>
 <use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="276" y="267" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
+</g>
+<g class="combo combopos-2">
+<path d="M462,168 l-359,0" class="combo"/>
+<path d="M462,168 l359,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="155" width="28" height="26" class="combo"/>
+<text x="462" y="168" class="combo tap"><tspan style="font-size: 60%">&amp;case_pas…</tspan></text>
+</g>
+<g class="combo combopos-3">
+<path d="M462,224 l-359,0" class="combo"/>
+<path d="M462,224 l359,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="211" width="28" height="26" class="combo"/>
+<text x="462" y="224" class="combo tap"><tspan style="font-size: 60%">&amp;case_cam…</tspan></text>
+</g>
+<g class="combo combopos-4">
+<path d="M462,112 l-359,0" class="combo"/>
+<path d="M462,112 l359,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="99" width="28" height="26" class="combo"/>
+<text x="462" y="112" class="combo tap"><tspan style="font-size: 60%">&amp;case_keb…</tspan></text>
 </g>
 </g>
 </g>
@@ -3508,6 +3652,24 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="269" y="258" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="274" y="262" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-control"/>
 <use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="276" y="267" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
+</g>
+<g class="combo combopos-2">
+<path d="M462,168 l-359,0" class="combo"/>
+<path d="M462,168 l359,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="155" width="28" height="26" class="combo"/>
+<text x="462" y="168" class="combo tap"><tspan style="font-size: 60%">&amp;case_pas…</tspan></text>
+</g>
+<g class="combo combopos-3">
+<path d="M462,224 l-359,0" class="combo"/>
+<path d="M462,224 l359,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="211" width="28" height="26" class="combo"/>
+<text x="462" y="224" class="combo tap"><tspan style="font-size: 60%">&amp;case_cam…</tspan></text>
+</g>
+<g class="combo combopos-4">
+<path d="M462,112 l-359,0" class="combo"/>
+<path d="M462,112 l359,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="99" width="28" height="26" class="combo"/>
+<text x="462" y="112" class="combo tap"><tspan style="font-size: 60%">&amp;case_keb…</tspan></text>
 </g>
 </g>
 </g>

@@ -590,3 +590,9 @@ combos:
   k: {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
 - p: [55, 56]
   k: {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
+- p: [27, 37]
+  k: '&case_pascal'
+- p: [40, 50]
+  k: '&case_camel'
+- p: [14, 24]
+  k: '&case_kebab'
