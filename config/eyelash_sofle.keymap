@@ -77,7 +77,7 @@
             label = "One Off";
             bindings = <&kp>;
             #binding-cells = <1>;
-            release-after-ms = <800>;
+            release-after-ms = <5000>;
             quick-release;
             ignore-modifiers;
         };
