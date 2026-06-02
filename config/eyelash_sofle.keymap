@@ -4,6 +4,7 @@
 #include <input/processors.dtsi>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 #include <behaviors.dtsi>
+#include <behaviors/case_mode.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
@@ -94,6 +95,21 @@
         ctrl {
             bindings = <&of LCTRL>;
             key-positions = <55 56>;
+        };
+
+        pascal_case {
+            bindings = <&case_pascal>;
+            key-positions = <27 37>;
+        };
+
+        camel_case {
+            bindings = <&case_camel>;
+            key-positions = <40 50>;
+        };
+
+        kebab_case {
+            bindings = <&case_kebab>;
+            key-positions = <14 24>;
         };
     };
 

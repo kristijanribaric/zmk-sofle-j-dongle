@@ -2,6 +2,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: msmaili
+      url-base: https://github.com/MSmaili
     - name: gpeye
       url-base: https://github.com/GPeye
     - name: tokyo2006
@@ -20,6 +22,9 @@ manifest:
       remote: zmkfirmware
       revision: v0.3.0
       import: app/west.yml
+    - name: zmk-case-mode
+      remote: msmaili
+      revision: main
     - name: prospector-zmk-module                 # <--- and these
       remote: tokyo2006                          # <---
       revision: micro_spi2  
