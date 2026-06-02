@@ -587,6 +587,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [56, 60]
-  k: {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
-- p: [55, 56]
   k: {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
+- p: [55, 56]
+  k: {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
