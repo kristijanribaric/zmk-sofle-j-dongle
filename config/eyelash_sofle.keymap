@@ -73,7 +73,14 @@
         };
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        shift {
+            bindings = <&sk LEFT_SHIFT>;
+            key-positions = <56 60>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
