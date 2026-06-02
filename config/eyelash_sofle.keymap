@@ -87,12 +87,12 @@
         compatible = "zmk,combos";
 
         shift {
-            bindings = <&of LEFT_SHIFT>;
+            bindings = <&of LCTRL>;
             key-positions = <56 60>;
         };
 
         ctrl {
-            bindings = <&of LCTRL>;
+            bindings = <&of LEFT_SHIFT>;
             key-positions = <55 56>;
         };
     };
