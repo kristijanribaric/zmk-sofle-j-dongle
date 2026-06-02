@@ -71,18 +71,28 @@
             require-prior-idle-ms = <0>;
             bindings = <&kp>, <&kp>;
         };
+
+        of: one_off {
+            compatible = "zmk,behavior-sticky-key";
+            label = "One Off";
+            bindings = <&kp>;
+            #binding-cells = <1>;
+            release-after-ms = <800>;
+            quick-release;
+            ignore-modifiers;
+        };
     };
 
     combos {
         compatible = "zmk,combos";
 
         shift {
-            bindings = <&sk LEFT_SHIFT>;
+            bindings = <&of LEFT_SHIFT>;
             key-positions = <56 60>;
         };
 
         ctrl {
-            bindings = <&sk LCTRL>;
+            bindings = <&of LCTRL>;
             key-positions = <55 56>;
         };
     };
@@ -107,8 +117,8 @@
             bindings = <
 &trans      &kp F1          &kp F2                &kp F3                 &kp F4        &kp F5       &mmv MOVE_UP     &kp F6             &kp F7      &kp F8      &kp F9     &kp F10          &trans
 &trans      &trans          &trans                &kp LC(Y)              &kp LC(Z)     &kp LG(V)    &mmv MOVE_DOWN   &kp RA(BACKSLASH)  &kp HOME    &kp UP      &kp END    &kp CAPSLOCK     &trans
-&trans      &kp LEFT_SHIFT  &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)  &kp LC(C)     &kp LC(V)    &mmv MOVE_LEFT   &kp PAGE_UP        &kp LEFT    &kp DOWN    &kp RIGHT  &kp RIGHT_SHIFT  &trans
-&trans      &kp LCTRL       &trans                &kp RA(SEMI)           &kp RA(APOS)  &kp LC(X)    &mmv MOVE_RIGHT  &kp PAGE_DOWN      &trans      &kp INSERT  &trans     &kp RCTRL        &trans
+&trans      &of LEFT_SHIFT  &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)  &kp LC(C)     &kp LC(V)    &mmv MOVE_LEFT   &kp PAGE_UP        &kp LEFT    &kp DOWN    &kp RIGHT  &of RIGHT_SHIFT  &trans
+&trans      &of LCTRL       &trans                &kp RA(SEMI)           &kp RA(APOS)  &kp LC(X)    &mmv MOVE_RIGHT  &kp PAGE_DOWN      &trans      &kp INSERT  &trans     &of RCTRL        &trans
 &kp C_MUTE  &trans          &trans                &trans                 &trans        &trans       &mkp LCLK        &trans             &kp DELETE  &trans      &trans     &trans
             >;
 
