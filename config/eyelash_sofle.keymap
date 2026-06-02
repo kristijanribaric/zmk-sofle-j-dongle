@@ -80,6 +80,11 @@
             bindings = <&sk LEFT_SHIFT>;
             key-positions = <56 60>;
         };
+
+        ctrl {
+            bindings = <&sk LCTRL>;
+            key-positions = <55 56>;
+        };
     };
 
     keymap {
