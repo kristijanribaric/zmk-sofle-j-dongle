@@ -71,8 +71,6 @@
             quick-tap-ms = <175>;
             require-prior-idle-ms = <0>;
             bindings = <&kp>, <&kp>;
-
-            retro-tap;
         };
 
         of: one_off {
