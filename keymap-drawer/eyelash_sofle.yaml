@@ -28,7 +28,7 @@ layers:
   - P
   - F12
   - $$mdi:apple-keyboard-shift$$
-  - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
+  - A
   - S
   - D
   - {t: F, h: NUM}
@@ -41,7 +41,7 @@ layers:
   - {t: ;, h: '$$mdi:apple-keyboard-shift$$', s: ':'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
-  - {t: Y, h: '$$mdi:apple-keyboard-control$$'}
+  - Y
   - X
   - C
   - {t: V, h: F-KEYS}
