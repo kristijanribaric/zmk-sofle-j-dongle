@@ -3,7 +3,6 @@
 
 #include <input/processors.dtsi>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
-#include <behaviors/case_mode.dtsi>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
@@ -98,21 +97,6 @@
 
     combos {
         compatible = "zmk,combos";
-
-        pascal_case {
-            bindings = <&case_pascal>;
-            key-positions = <56 60>;
-        };
-
-        camel_case {
-            bindings = <&case_camel>;
-            key-positions = <57 59>;
-        };
-
-        kebab_case {
-            bindings = <&case_kebab>;
-            key-positions = <55 61>;
-        };
     };
 
     keymap {
