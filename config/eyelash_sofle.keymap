@@ -82,6 +82,19 @@
             quick-release;
             ignore-modifiers;
         };
+
+        sticky_tap: sticky_tap {
+            compatible = "zmk,behavior-hold-tap";
+            label = "STICKY_TAP";
+            bindings = <&kp>, <&sk>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <160>;
+            quick-tap-ms = <175>;
+            require-prior-idle-ms = <0>;
+            flavor = "tap-unless-interrupted";
+            retro-tap;
+        };
     };
 
     combos {
@@ -108,11 +121,11 @@
 
         layer_0 {
             bindings = <
-&kp ESC         &kp F1            &kp F2  &kp F3               &kp F4            &kp F5         &kp UP_ARROW     &kp F6       &kp F7         &kp F8     &kp F9   &kp F10                    &lt 3 F11
-&lt 4 TAB       &kp Q             &kp W   &kp E                &kp R             &kp T          &kp DOWN_ARROW   &kp Z        &kp U          &kp I      &kp O    &kp P                      &kp F12
-&kp LEFT_SHIFT  &hm LEFT_SHIFT A  &kp S   &kp D                &lt 4 F           &kp G          &kp LEFT_ARROW   &kp H        &kp J          &kp K      &kp L    &hm RIGHT_SHIFT SEMICOLON  &kp RIGHT_SHIFT
-&kp LCTRL       &hm LCTRL Y       &kp X   &kp C                &lt 5 V           &kp B          &kp RIGHT_ARROW  &kp N        &kp M          &kp COMMA  &kp DOT  &hm RCTRL SLASH            &kp RCTRL
-&kp C_MUTE      &kp TAB           &mo 4   &mt LEFT_GUI ESCAPE  &mt LEFT_ALT TAB  &lt 1 SPACE    &kp ENTER        &lt 2 ENTER  &kp BACKSPACE  &kp TAB    &mo 8    &to 7
+&kp ESC         &kp F1            &kp F2  &kp F3               &kp F4                           &kp F5         &kp UP_ARROW     &kp F6       &kp F7         &kp F8     &kp F9   &kp F10                    &lt 3 F11
+&lt 4 TAB       &kp Q             &kp W   &kp E                &kp R                            &kp T          &kp DOWN_ARROW   &kp Z        &kp U          &kp I      &kp O    &kp P                      &kp F12
+&kp LEFT_SHIFT  &hm LEFT_SHIFT A  &kp S   &kp D                &lt 4 F                          &kp G          &kp LEFT_ARROW   &kp H        &kp J          &kp K      &kp L    &hm RIGHT_SHIFT SEMICOLON  &kp RIGHT_SHIFT
+&kp LCTRL       &hm LCTRL Y       &kp X   &kp C                &lt 5 V                          &kp B          &kp RIGHT_ARROW  &kp N        &kp M          &kp COMMA  &kp DOT  &hm RCTRL SLASH            &kp RCTRL
+&kp C_MUTE      &kp TAB           &mo 4   &mt LEFT_GUI ESCAPE  &sticky_tap LEFT_GUI LEFT_SHIFT  &lt 1 SPACE    &kp ENTER        &lt 2 ENTER  &kp BACKSPACE  &kp TAB    &mo 8    &to 7
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -125,7 +138,7 @@
 &trans      &trans          &trans                &kp LC(Y)              &kp LC(Z)     &kp LG(V)    &mmv MOVE_DOWN   &kp RA(BACKSLASH)  &kp HOME    &kp UP      &kp END    &kp CAPSLOCK     &trans
 &trans      &of LEFT_SHIFT  &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)  &kp LC(C)     &kp LC(V)    &mmv MOVE_LEFT   &kp PAGE_UP        &kp LEFT    &kp DOWN    &kp RIGHT  &of RIGHT_SHIFT  &trans
 &trans      &of LCTRL       &trans                &kp RA(SEMI)           &kp RA(APOS)  &kp LC(X)    &mmv MOVE_RIGHT  &kp PAGE_DOWN      &trans      &kp INSERT  &trans     &of RCTRL        &trans
-&kp C_MUTE  &trans          &trans                &trans                 &trans        &trans       &mkp LCLK        &trans             &kp DELETE  &trans      &trans     &trans
+&kp C_MUTE  &trans          &trans                &trans                 &trans        &trans       &mkp LCLK        &kp TAB            &kp DELETE  &trans      &trans     &trans
             >;
 
             display-name = "NAV";
