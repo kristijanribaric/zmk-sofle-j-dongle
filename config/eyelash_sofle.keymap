@@ -78,7 +78,7 @@
             label = "One Off";
             bindings = <&kp>;
             #binding-cells = <1>;
-            release-after-ms = <5000>;
+            release-after-ms = <2000>;
             quick-release;
             ignore-modifiers;
         };
@@ -86,7 +86,7 @@
         sticky_tap: sticky_tap {
             compatible = "zmk,behavior-hold-tap";
             label = "STICKY_TAP";
-            bindings = <&kp>, <&sk>;
+            bindings = <&kp>, <&of>;
 
             #binding-cells = <2>;
             tapping-term-ms = <160>;
