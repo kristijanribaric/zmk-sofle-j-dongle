@@ -638,24 +638,6 @@ rect.held, rect.combo.held {
 <text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 75%">GAMING_2</tspan></text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
-<g class="combo combopos-0">
-<path d="M462,283 l-129,0" class="combo"/>
-<path d="M462,283 l129,0" class="combo"/>
-<rect rx="6" ry="6" x="448" y="270" width="28" height="26" class="combo"/>
-<text x="462" y="283" class="combo tap"><tspan style="font-size: 60%">&amp;case_pas…</tspan></text>
-</g>
-<g class="combo combopos-1">
-<path d="M462,294 l-54,0" class="combo"/>
-<path d="M462,294 l54,0" class="combo"/>
-<rect rx="6" ry="6" x="448" y="281" width="28" height="26" class="combo"/>
-<text x="462" y="294" class="combo tap"><tspan style="font-size: 60%">&amp;case_cam…</tspan></text>
-</g>
-<g class="combo combopos-2">
-<path d="M462,259 l-191,0" class="combo"/>
-<path d="M462,259 l191,0" class="combo"/>
-<rect rx="6" ry="6" x="448" y="246" width="28" height="26" class="combo"/>
-<text x="462" y="259" class="combo tap"><tspan style="font-size: 60%">&amp;case_keb…</tspan></text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 388)" class="layer-NAV">
@@ -998,24 +980,6 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
-</g>
-<g class="combo combopos-0">
-<path d="M462,283 l-129,0" class="combo"/>
-<path d="M462,283 l129,0" class="combo"/>
-<rect rx="6" ry="6" x="448" y="270" width="28" height="26" class="combo"/>
-<text x="462" y="283" class="combo tap"><tspan style="font-size: 60%">&amp;case_pas…</tspan></text>
-</g>
-<g class="combo combopos-1">
-<path d="M462,294 l-54,0" class="combo"/>
-<path d="M462,294 l54,0" class="combo"/>
-<rect rx="6" ry="6" x="448" y="281" width="28" height="26" class="combo"/>
-<text x="462" y="294" class="combo tap"><tspan style="font-size: 60%">&amp;case_cam…</tspan></text>
-</g>
-<g class="combo combopos-2">
-<path d="M462,259 l-191,0" class="combo"/>
-<path d="M462,259 l191,0" class="combo"/>
-<rect rx="6" ry="6" x="448" y="246" width="28" height="26" class="combo"/>
-<text x="462" y="259" class="combo tap"><tspan style="font-size: 60%">&amp;case_keb…</tspan></text>
 </g>
 </g>
 </g>
@@ -1374,24 +1338,6 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g class="combo combopos-0">
-<path d="M462,283 l-129,0" class="combo"/>
-<path d="M462,283 l129,0" class="combo"/>
-<rect rx="6" ry="6" x="448" y="270" width="28" height="26" class="combo"/>
-<text x="462" y="283" class="combo tap"><tspan style="font-size: 60%">&amp;case_pas…</tspan></text>
-</g>
-<g class="combo combopos-1">
-<path d="M462,294 l-54,0" class="combo"/>
-<path d="M462,294 l54,0" class="combo"/>
-<rect rx="6" ry="6" x="448" y="281" width="28" height="26" class="combo"/>
-<text x="462" y="294" class="combo tap"><tspan style="font-size: 60%">&amp;case_cam…</tspan></text>
-</g>
-<g class="combo combopos-2">
-<path d="M462,259 l-191,0" class="combo"/>
-<path d="M462,259 l191,0" class="combo"/>
-<rect rx="6" ry="6" x="448" y="246" width="28" height="26" class="combo"/>
-<text x="462" y="259" class="combo tap"><tspan style="font-size: 60%">&amp;case_keb…</tspan></text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 1165)" class="layer-SYS">
@@ -1747,24 +1693,6 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g class="combo combopos-0">
-<path d="M462,283 l-129,0" class="combo"/>
-<path d="M462,283 l129,0" class="combo"/>
-<rect rx="6" ry="6" x="448" y="270" width="28" height="26" class="combo"/>
-<text x="462" y="283" class="combo tap"><tspan style="font-size: 60%">&amp;case_pas…</tspan></text>
-</g>
-<g class="combo combopos-1">
-<path d="M462,294 l-54,0" class="combo"/>
-<path d="M462,294 l54,0" class="combo"/>
-<rect rx="6" ry="6" x="448" y="281" width="28" height="26" class="combo"/>
-<text x="462" y="294" class="combo tap"><tspan style="font-size: 60%">&amp;case_cam…</tspan></text>
-</g>
-<g class="combo combopos-2">
-<path d="M462,259 l-191,0" class="combo"/>
-<path d="M462,259 l191,0" class="combo"/>
-<rect rx="6" ry="6" x="448" y="246" width="28" height="26" class="combo"/>
-<text x="462" y="259" class="combo tap"><tspan style="font-size: 60%">&amp;case_keb…</tspan></text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 1553)" class="layer-NUM">
@@ -2105,24 +2033,6 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g class="combo combopos-0">
-<path d="M462,283 l-129,0" class="combo"/>
-<path d="M462,283 l129,0" class="combo"/>
-<rect rx="6" ry="6" x="448" y="270" width="28" height="26" class="combo"/>
-<text x="462" y="283" class="combo tap"><tspan style="font-size: 60%">&amp;case_pas…</tspan></text>
-</g>
-<g class="combo combopos-1">
-<path d="M462,294 l-54,0" class="combo"/>
-<path d="M462,294 l54,0" class="combo"/>
-<rect rx="6" ry="6" x="448" y="281" width="28" height="26" class="combo"/>
-<text x="462" y="294" class="combo tap"><tspan style="font-size: 60%">&amp;case_cam…</tspan></text>
-</g>
-<g class="combo combopos-2">
-<path d="M462,259 l-191,0" class="combo"/>
-<path d="M462,259 l191,0" class="combo"/>
-<rect rx="6" ry="6" x="448" y="246" width="28" height="26" class="combo"/>
-<text x="462" y="259" class="combo tap"><tspan style="font-size: 60%">&amp;case_keb…</tspan></text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 1941)" class="layer-F-KEYS">
@@ -2446,24 +2356,6 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
-</g>
-<g class="combo combopos-0">
-<path d="M462,283 l-129,0" class="combo"/>
-<path d="M462,283 l129,0" class="combo"/>
-<rect rx="6" ry="6" x="448" y="270" width="28" height="26" class="combo"/>
-<text x="462" y="283" class="combo tap"><tspan style="font-size: 60%">&amp;case_pas…</tspan></text>
-</g>
-<g class="combo combopos-1">
-<path d="M462,294 l-54,0" class="combo"/>
-<path d="M462,294 l54,0" class="combo"/>
-<rect rx="6" ry="6" x="448" y="281" width="28" height="26" class="combo"/>
-<text x="462" y="294" class="combo tap"><tspan style="font-size: 60%">&amp;case_cam…</tspan></text>
-</g>
-<g class="combo combopos-2">
-<path d="M462,259 l-191,0" class="combo"/>
-<path d="M462,259 l191,0" class="combo"/>
-<rect rx="6" ry="6" x="448" y="246" width="28" height="26" class="combo"/>
-<text x="462" y="259" class="combo tap"><tspan style="font-size: 60%">&amp;case_keb…</tspan></text>
 </g>
 </g>
 </g>
@@ -2807,24 +2699,6 @@ rect.held, rect.combo.held {
 <text x="0" y="-4" class="key tap layer-activator">BASE</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
-<g class="combo combopos-0">
-<path d="M462,283 l-129,0" class="combo"/>
-<path d="M462,283 l129,0" class="combo"/>
-<rect rx="6" ry="6" x="448" y="270" width="28" height="26" class="combo"/>
-<text x="462" y="283" class="combo tap"><tspan style="font-size: 60%">&amp;case_pas…</tspan></text>
-</g>
-<g class="combo combopos-1">
-<path d="M462,294 l-54,0" class="combo"/>
-<path d="M462,294 l54,0" class="combo"/>
-<rect rx="6" ry="6" x="448" y="281" width="28" height="26" class="combo"/>
-<text x="462" y="294" class="combo tap"><tspan style="font-size: 60%">&amp;case_cam…</tspan></text>
-</g>
-<g class="combo combopos-2">
-<path d="M462,259 l-191,0" class="combo"/>
-<path d="M462,259 l191,0" class="combo"/>
-<rect rx="6" ry="6" x="448" y="246" width="28" height="26" class="combo"/>
-<text x="462" y="259" class="combo tap"><tspan style="font-size: 60%">&amp;case_keb…</tspan></text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 2718)" class="layer-GAMING_2">
@@ -3163,24 +3037,6 @@ rect.held, rect.combo.held {
 <a href="#BASE">
 <text x="0" y="-4" class="key tap layer-activator">BASE</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
-</g>
-<g class="combo combopos-0">
-<path d="M462,283 l-129,0" class="combo"/>
-<path d="M462,283 l129,0" class="combo"/>
-<rect rx="6" ry="6" x="448" y="270" width="28" height="26" class="combo"/>
-<text x="462" y="283" class="combo tap"><tspan style="font-size: 60%">&amp;case_pas…</tspan></text>
-</g>
-<g class="combo combopos-1">
-<path d="M462,294 l-54,0" class="combo"/>
-<path d="M462,294 l54,0" class="combo"/>
-<rect rx="6" ry="6" x="448" y="281" width="28" height="26" class="combo"/>
-<text x="462" y="294" class="combo tap"><tspan style="font-size: 60%">&amp;case_cam…</tspan></text>
-</g>
-<g class="combo combopos-2">
-<path d="M462,259 l-191,0" class="combo"/>
-<path d="M462,259 l191,0" class="combo"/>
-<rect rx="6" ry="6" x="448" y="246" width="28" height="26" class="combo"/>
-<text x="462" y="259" class="combo tap"><tspan style="font-size: 60%">&amp;case_keb…</tspan></text>
 </g>
 </g>
 </g>
@@ -3541,24 +3397,6 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
-</g>
-<g class="combo combopos-0">
-<path d="M462,283 l-129,0" class="combo"/>
-<path d="M462,283 l129,0" class="combo"/>
-<rect rx="6" ry="6" x="448" y="270" width="28" height="26" class="combo"/>
-<text x="462" y="283" class="combo tap"><tspan style="font-size: 60%">&amp;case_pas…</tspan></text>
-</g>
-<g class="combo combopos-1">
-<path d="M462,294 l-54,0" class="combo"/>
-<path d="M462,294 l54,0" class="combo"/>
-<rect rx="6" ry="6" x="448" y="281" width="28" height="26" class="combo"/>
-<text x="462" y="294" class="combo tap"><tspan style="font-size: 60%">&amp;case_cam…</tspan></text>
-</g>
-<g class="combo combopos-2">
-<path d="M462,259 l-191,0" class="combo"/>
-<path d="M462,259 l191,0" class="combo"/>
-<rect rx="6" ry="6" x="448" y="246" width="28" height="26" class="combo"/>
-<text x="462" y="259" class="combo tap"><tspan style="font-size: 60%">&amp;case_keb…</tspan></text>
 </g>
 </g>
 </g>
