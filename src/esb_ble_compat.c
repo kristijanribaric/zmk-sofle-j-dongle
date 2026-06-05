@@ -14,17 +14,15 @@
  * With the ESB split transport the BLE peripheral source is not built,
  * so the widget fails to link. ESB is connectionless from the
  * peripheral's point of view, so the best we can report is "connected"
- * (the peripheral is up and transmitting). This shim:
- *   * provides a constant `true` implementation of the connection
- *     predicate, and
- *   * defines the missing event type so the widget's subscription is
- *     valid even though no one will raise it.
+ * (the peripheral is up and transmitting). This shim provides a
+ * constant `true` implementation of the connection predicate.
+ *
+ * NOTE: the `zmk_split_peripheral_status_changed` event itself is
+ * defined unconditionally in `app/src/events/split_peripheral_status_changed.c`,
+ * so we do not need to (and must not) re-implement it here.
  */
 
 #include <zephyr/kernel.h>
-
-#include <zmk/event_manager.h>
-#include <zmk/events/split_peripheral_status_changed.h>
 
 bool zmk_split_bt_peripheral_is_connected(void) {
     return true;
@@ -33,5 +31,3 @@ bool zmk_split_bt_peripheral_is_connected(void) {
 bool zmk_split_bt_peripheral_is_bonded(void) {
     return true;
 }
-
-ZMK_EVENT_IMPL(zmk_split_peripheral_status_changed);
