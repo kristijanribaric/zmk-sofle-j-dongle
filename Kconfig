@@ -9,3 +9,29 @@ config ZMK_SOFLE_ESB_BLE_COMPAT
       peripheral API. When the ESB split transport is used instead, that
       API is not compiled. Enable this to provide stubs so nice_view can
       link.
+
+config ZMK_SOFLE_LS0XX_VCOM_TOGGLE
+    bool "Software VCOM toggler for Sharp LS0XX (nice!view)"
+    depends on SHIELD_NICE_VIEW && SPI
+    default y if SHIELD_NICE_VIEW
+    help
+      Zephyr 4.1's sharp,ls0xx driver silently ignores
+      `serial-vcom-inversion`. Without VCOM polarity inversion the LCD
+      builds up DC bias and visibly flickers. Enable this to spawn a
+      low-priority thread that issues the VCOM-toggle SPI command
+      directly, restoring the panel's expected refresh behaviour.
+
+config ZMK_SOFLE_LS0XX_VCOM_INTERVAL_MS
+    int "VCOM polarity inversion interval (ms)"
+    depends on ZMK_SOFLE_LS0XX_VCOM_TOGGLE
+    default 1000
+    help
+      Period between VCOM polarity inversions. The Sharp LS013B7DH05
+      datasheet recommends an inversion frequency between 0.5 Hz and
+      60 Hz; 1000 ms keeps the panel happy with negligible current
+      draw.
+
+config ZMK_SOFLE_LS0XX_VCOM_STACK_SIZE
+    int "VCOM toggle thread stack size"
+    depends on ZMK_SOFLE_LS0XX_VCOM_TOGGLE
+    default 512

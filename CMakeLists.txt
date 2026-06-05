@@ -11,3 +11,8 @@ if(CONFIG_ZMK_SOFLE_ESB_BLE_COMPAT)
     zephyr_library()
     zephyr_library_sources(src/esb_ble_compat.c)
 endif()
+
+if(CONFIG_ZMK_SOFLE_LS0XX_VCOM_TOGGLE)
+    zephyr_library_named(ls0xx_vcom_toggle)
+    zephyr_library_sources(src/ls0xx_vcom_toggle.c)
+endif()
