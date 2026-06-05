@@ -18,11 +18,15 @@
  *    that callback is registered only when building against a Zephyr
  *    that provides one.
  *
- * Enable by setting `CONFIG_LS0XX=n` (to drop the in-tree driver)
- * together with `CONFIG_ZMK_SOFLE_LS0XX=y`.
+ * Enable by setting `CONFIG_ZMK_SOFLE_LS0XX=y`. The vendored driver
+ * uses the `zmk,sharp-ls0xx` compatible (defined under
+ * dts/bindings/display/) to avoid colliding with Zephyr's in-tree
+ * `sharp,ls0xx` binding. The companion overlay
+ * config/nice_view.overlay rewrites the nice_view node's compatible
+ * to `zmk,sharp-ls0xx` so this driver matches it.
  */
 
-#define DT_DRV_COMPAT   sharp_ls0xx
+#define DT_DRV_COMPAT   zmk_sharp_ls0xx
 
 #include <zephyr/logging/log.h>
 LOG_MODULE_REGISTER(ls0xx, CONFIG_DISPLAY_LOG_LEVEL);
