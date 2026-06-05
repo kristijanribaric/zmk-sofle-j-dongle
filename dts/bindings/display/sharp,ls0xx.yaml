@@ -13,9 +13,9 @@
 # `CONFIG_LS0XX=n` (to disable the in-tree driver) together with
 # `CONFIG_ZMK_SOFLE_LS0XX=y` (to enable our vendored copy).
 
-title: Sharp LS0XX memory display controller
-
 description: |
+    Sharp LS0XX memory display controller
+
     Sharp LS0XX series has an eclectic range of TFT-LCD controllers,
     mostly monochrome TFT-LCD controller up to 400x240 resolution.
 
