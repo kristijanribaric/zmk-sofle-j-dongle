@@ -4,10 +4,10 @@ include:
     shield: eyelash_sofle_central_dongle
     artifact-name: eyelash_sofle_central_dongle
   - board: nice_nano@2.0.0//zmk
-    shield: eyelash_sofle_peripheral_left nice_view
+    shield: eyelash_sofle_peripheral_left
     artifact-name: eyelash_sofle_peripheral_left
   - board: nice_nano@2.0.0//zmk
-    shield: eyelash_sofle_peripheral_right nice_view
+    shield: eyelash_sofle_peripheral_right
     artifact-name: eyelash_sofle_peripheral_right
   - board: nice_nano@2.0.0//zmk
     shield: settings_reset
