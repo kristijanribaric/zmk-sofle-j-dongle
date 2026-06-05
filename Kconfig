@@ -12,7 +12,7 @@ config ZMK_SOFLE_ESB_BLE_COMPAT
 
 config ZMK_SOFLE_LS0XX
     bool "Use the vendored Sharp LS0XX driver with serial-vcom-inversion"
-    default y if ZMK_DISPLAY
+    default y if ZMK_DISPLAY && DT_HAS_ZMK_SHARP_LS0XX_ENABLED
     help
       The Zephyr 4.1 in-tree sharp,ls0xx driver does not implement the
       serial-vcom-inversion software VCOM toggling that ZMK 0.4
