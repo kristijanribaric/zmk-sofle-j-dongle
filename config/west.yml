@@ -48,9 +48,9 @@ manifest:
     # - name: prospector-zmk-module
     #   remote: tokyo2006
     #   revision: micro_spi2
-    # - name: zmk-dongle-display
-    #   remote: englmaxi
-    #   revision: v0.3
+    - name: zmk-dongle-display
+      remote: englmaxi
+      revision: main
     # - name: zmk-raw-hid
     #   remote: zzeneg
     #   revision: main

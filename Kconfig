@@ -1,0 +1,11 @@
+# Copyright (c) 2026 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+config ZMK_SOFLE_ESB_BLE_COMPAT
+    bool "Provide BLE-peripheral stubs for ESB split peripherals"
+    default y if ZMK_SPLIT_ESB && !ZMK_SPLIT_BLE && ZMK_DISPLAY
+    help
+      The stock nice_view peripheral widget calls into the BLE split
+      peripheral API. When the ESB split transport is used instead, that
+      API is not compiled. Enable this to provide stubs so nice_view can
+      link.

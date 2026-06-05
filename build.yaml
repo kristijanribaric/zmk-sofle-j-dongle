@@ -1,13 +1,13 @@
 ---
 include:
   - board: nice_nano@2.0.0//zmk
-    shield: eyelash_sofle_central_dongle
+    shield: eyelash_sofle_central_dongle dongle_display
     artifact-name: eyelash_sofle_central_dongle
   - board: nice_nano@2.0.0//zmk
-    shield: eyelash_sofle_peripheral_left
+    shield: eyelash_sofle_peripheral_left nice_view
     artifact-name: eyelash_sofle_peripheral_left
   - board: nice_nano@2.0.0//zmk
-    shield: eyelash_sofle_peripheral_right
+    shield: eyelash_sofle_peripheral_right nice_view
     artifact-name: eyelash_sofle_peripheral_right
   - board: nice_nano@2.0.0//zmk
     shield: settings_reset
