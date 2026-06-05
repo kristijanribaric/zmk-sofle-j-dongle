@@ -2,6 +2,10 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: badjeff
+      url-base: https://github.com/badjeff
+    - name: nrfconnect
+      url-base: https://github.com/nrfconnect
     - name: gpeye
       url-base: https://github.com/GPeye
     - name: tokyo2006
@@ -10,27 +14,49 @@ manifest:
       url-base: https://github.com/englmaxi
     - name: zzeneg # <-- required for Raw HID module
       url-base: https://github.com/zzeneg
-    - name: srwi # <-- required for KeyPeek module
+    - name: srwi   # <-- required for KeyPeek module
       url-base: https://github.com/srwi
   projects:
-    - name: mario-peripheral-animation
-      remote: gpeye
-      revision: main 
+    # ZMK fork required by the ESB split transport (ZMK 0.4 / Zephyr 4.1).
     - name: zmk
-      remote: zmkfirmware
-      revision: v0.3.0
-      import: app/west.yml
-    - name: prospector-zmk-module                 # <--- and these
-      remote: tokyo2006                          # <---
-      revision: micro_spi2  
-    - name: zmk-dongle-display
-      remote: englmaxi
-      revision: v0.3
-    - name: zmk-raw-hid # <-- Raw HID module
-      remote: zzeneg
+      remote: badjeff
       revision: main
-    - name: zmk-keypeek-layer-notifier # <-- KeyPeek module
-      remote: srwi
-      revision: master
+      import: app/west.yml
+
+    # ESB split transport + patched NCS dependencies (see zmk-feature-split-esb README).
+    - name: zmk-feature-split-esb
+      remote: badjeff
+      revision: main
+    - name: sdk-nrf
+      remote: badjeff
+      revision: v3.1-branch+zmk-fixes
+      path: nrf
+    - name: nrfxlib
+      remote: nrfconnect
+      revision: v3.1-branch
+      repo-path: sdk-nrfxlib
+      path: nrfxlib
+
+    # NOTE: the following modules were used with ZMK v0.3.0 and are not yet
+    # verified to build on the badjeff/zmk (ZMK 0.4 / Zephyr 4.1) tree that
+    # the ESB transport requires. They are left here, commented, so they can
+    # be re-enabled after testing.
+    #
+    # - name: mario-peripheral-animation
+    #   remote: gpeye
+    #   revision: main
+    # - name: prospector-zmk-module
+    #   remote: tokyo2006
+    #   revision: micro_spi2
+    # - name: zmk-dongle-display
+    #   remote: englmaxi
+    #   revision: v0.3
+    # - name: zmk-raw-hid
+    #   remote: zzeneg
+    #   revision: main
+    # - name: zmk-keypeek-layer-notifier
+    #   remote: srwi
+    #   revision: master
+
   self:
     path: config
