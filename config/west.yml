@@ -12,6 +12,8 @@ manifest:
       url-base: https://github.com/zzeneg
     - name: srwi # <-- required for KeyPeek module
       url-base: https://github.com/srwi
+    - name: m165437 # <-- nice-view-gem custom widget
+      url-base: https://github.com/M165437
   projects:
     - name: mario-peripheral-animation
       remote: gpeye
@@ -32,5 +34,8 @@ manifest:
     - name: zmk-keypeek-layer-notifier # <-- KeyPeek module
       remote: srwi
       revision: master
+    - name: nice-view-gem # <-- pin to v0.3.0 to match ZMK v0.3.0
+      remote: m165437
+      revision: v0.3.0
   self:
     path: config
