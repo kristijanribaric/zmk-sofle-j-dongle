@@ -151,10 +151,10 @@ layers:
   - {t: '-', s: _}
   - +
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - $
+  - _
   - (
   - )
-  - {t: ;, s: ':'}
-  - {t: Sft+;, s: 'Sft+:'}
   - ^
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -164,10 +164,10 @@ layers:
   - {t: '=', s: +}
   - '&'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - {t: ;, s: ':'}
+  - {t: Sft+;, s: 'Sft+:'}
   - '{'
   - '}'
-  - <
-  - '>'
   - Sft+<
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -177,10 +177,10 @@ layers:
   - '@'
   - '%'
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - <
+  - '>'
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - $
-  - _
   - <
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
