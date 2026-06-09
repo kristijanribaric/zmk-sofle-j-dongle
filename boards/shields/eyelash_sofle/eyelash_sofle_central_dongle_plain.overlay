@@ -6,10 +6,10 @@
  */
 
 #include "eyelash_sofle.dtsi"
-#include "eyelash_sofle_esb_address.dtsi"
 
 / {
     chosen {
+        /delete-property/ zmk,battery;
         zmk,kscan = &mock_kscan;
     };
 
