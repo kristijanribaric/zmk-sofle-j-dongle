@@ -3,6 +3,9 @@ include:
   - board: nice_nano@2.0.0//zmk
     shield: eyelash_sofle_central_dongle dongle_display
     artifact-name: eyelash_sofle_central_dongle
+  - board: nice_nano
+    shield: eyelash_sofle_central_dongle_plain
+    artifact-name: eyelash_sofle_central_dongle_plain
   - board: nice_nano@2.0.0//zmk
     shield: eyelash_sofle_peripheral_left nice_view_adapter nice_view_gem
     artifact-name: eyelash_sofle_peripheral_left
