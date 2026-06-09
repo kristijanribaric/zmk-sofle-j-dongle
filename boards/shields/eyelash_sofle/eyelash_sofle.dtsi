@@ -45,16 +45,10 @@
         diode-direction = "col2row";
     };
     
-    ext-power {
-        compatible = "zmk,ext-power-generic";
-        label = "EXT_POWER";
-        control-gpios = <&gpio0 13 GPIO_ACTIVE_HIGH>;
-        init-delay-ms = <50>;
-    };
-
-    vbatt: vbatt {
-        compatible = "zmk,battery-nrf-vddh";
-    };
+    /*
+     * nice_nano_v2 already provides ext_power and vbatt. Redefining them here
+     * causes duplicate devicetree nodes on dongle builds.
+     */
 
     default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
